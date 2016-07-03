@@ -1,0 +1,14 @@
+{ 
+    
+"name": "asiriCake",
+"private": true,
+"version": "1.0.0", 
+"description": ".................",
+"local-web-server": { "port": 8080 },
+"license": "MIT", 
+"devDependencies": { "local-web-server": "^1.2.6" },
+"scripts": { "postinstall": "bower install", 
+"prestart": "npm install", 
+"start": "ws --spa index.html" 
+
+} }
